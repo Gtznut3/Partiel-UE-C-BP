@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{58CB7428-4FEB-88ED-1CB8-E0A5CC7A7CB1}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MyFirstTryWithUnreal",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
